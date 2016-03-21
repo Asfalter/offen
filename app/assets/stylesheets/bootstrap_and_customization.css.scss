@@ -1,0 +1,76 @@
+$body-bg: black;
+
+
+#pageHeader {
+	background-image: image-url("Header.png");
+	background-repeat: no-repeat;
+	background-size:contain;
+	background-position:center;
+	width:100%;
+	height: 300px;
+	margin-top:15%;
+	margin-bottom:5%;
+	border:1px;
+}
+
+#tag {
+	color: black;
+	background-color: white;
+	font-size: 300%;
+	padding: 5px;
+}
+
+#firstImage {
+	background-image: image-url("image1.jpg");
+	background-repeat: no-repeat;
+	background-position:center;
+	width:100%;
+	height: 400px;
+}
+
+
+#secondImage {
+	background-image: image-url("image1.jpg");
+	background-repeat: no-repeat;
+	background-position:center;
+	width:100%;
+	height: 400px;
+}
+
+#thirdImage {
+	background-image: image-url("image1.jpg");
+	background-repeat: no-repeat;
+	background-position:center;
+	width:100%;
+	height: 400px;
+}
+
+#fourthImage {
+	background-image: image-url("image1.jpg");
+	background-repeat: no-repeat;
+	background-position:center;
+	width:100%;
+	height: 400px;
+}
+
+
+#imageButton {
+	background: none;
+	color: black;
+	border: 4px solid;
+	border-color: black;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
+
+
+
